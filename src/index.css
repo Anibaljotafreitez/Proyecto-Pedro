@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  /* display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; */
+}
+
+.scroll {
+  margin-top: 100px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mause {
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 10px 20px;
+  background-color: #810362;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.regresar{
+  padding: 10px 20px;
+  background-color: #ece6eb;
+  color: rgb(236, 21, 21);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.regresar2{
+  padding: 10px 20px;
+  background-color: #11000e;
+  color: rgb(241, 235, 235);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+h1{
+  margin: 50px;
+  padding: 10px;
+  color: aqua;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  display: grid;
+  justify-items: center;
+ 
+  
+}
+
+.botones{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
