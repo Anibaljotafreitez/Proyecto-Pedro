@@ -5,19 +5,14 @@ import { useNavigate, } from 'react-router'
 export const HomePages = () => {
 
    const navigate= useNavigate()
-   console.log(navigate)
+  //  console.log(navigate)
        
+    const handleNavigatePage=(url)=>{
 
-    const onScrollPage=()=>{
-    //    console.log('hice click')
-     navigate('/scroll')
+      navigate(url)
     }
 
-    const onMauselPage=()=>{
-        // console.log('hice click')
-      navigate('/mause')
-     }
-   
+  
     
   return (
  
@@ -26,11 +21,15 @@ export const HomePages = () => {
         <div className='botones'>
 
           <button className='scroll'
-                  onClick={onScrollPage}  
+                  onClick={()=>handleNavigatePage('/scroll')}  
           > Scroll </button>
           <button className='mause'
-                  onClick={onMauselPage}
+                  onClick={()=>handleNavigatePage('/mause')}
           > Mause </button>
+
+          <button  className='mause'
+                   onClick={()=>handleNavigatePage('/info')}
+          >Informacion</button>
 
         </div>
     </div>

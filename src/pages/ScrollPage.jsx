@@ -6,7 +6,7 @@ export const ScrollPage = () => {
     const navigate = useNavigate()
  
     const handleScroll = (event) => {
-        console.log(event)
+        // console.log(event)
         const { scrollTop, clientHeight } = event.target; 
         const scrollRatio = scrollTop / clientHeight
 
